@@ -10,6 +10,7 @@ Command line tool and "macro" for macOS that automates aamiaa's Discord Quest au
 - Open Safari (if not opened yet, which is not recommended btw)
 - Open Web Discord
 - Open the console
-- Paste in aamiaa's script
+- Paste in aamiaa's script \
+\
 If you don't have features for web developers enabled in Safari, you can run ```dquest enabledev```, though it is recommended
 to enable them manually, as the command is buggy (which doesn't mean your computer will explode if you run it)
