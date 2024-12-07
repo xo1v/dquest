@@ -1,0 +1,12 @@
+tell application "Safari"
+    activate
+    open location "https://discord.com/channels/@me"
+    delay 10
+end tell
+
+tell application "System Events"
+    keystroke "c" using {command down, option down}
+    delay 2
+    keystroke "v" using {command down}
+    keystroke return
+end tell
