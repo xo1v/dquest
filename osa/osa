@@ -6,7 +6,13 @@ end tell
 
 tell application "System Events"
     keystroke "c" using {command down, option down}
-    delay 2
+    delay 0.5
+    keystroke "Waiting to clear console warning messages..."
+    delay 4
+    keystroke return
+    delay 0.5
+    keystroke "k" using {command down}
+    delay 1
     keystroke "v" using {command down}
     keystroke return
 end tell
