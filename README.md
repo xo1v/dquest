@@ -4,7 +4,10 @@ Command line tool and "macro" for macOS that automates aamiaa's Discord Quest au
 # Instructions
 1 - Clone this repository \
 2 - ```cd``` into it (typically ```cd ~/dquest```) \
-3 - Run the ```setup``` shell script (```sh setup```)
+3 - Run the ```setup``` shell script (```sh setup```) \
+4 - Reopen your shell to apply PATH. \
+\
+Done! You can now use ```dquest```!
 
 # What dquest will do:
 - Open Safari (if not opened yet, which is not recommended btw)
