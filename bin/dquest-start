@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+set -o pipefail
+
+cat ~/dquest/dq | pbcopy
+osascript ~/dquest/osa/osa
