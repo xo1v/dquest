@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+set -o pipefail
+
+   echo
+echo "dquest ฅ^•ﻌ•^ฅ"
+echo "command line tool by vastra / @xo1v"
+echo "https://github.com/xo1v"
+echo "https://github.com/xo1v/dquest"
+echo
+echo "original script by Amia / @aamiaa"
+echo "https://github.com/aamiaa"
+echo "https://gist.github.com/aamiaa/204cd9d42013ded9faf646fae7f89fbb"
+   echo
