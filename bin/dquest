@@ -1,0 +1,17 @@
+#!/bin/sh
+
+print_usage() {
+    echo "Missing operand"
+    echo "Usage: dquest [arg]"
+    echo
+    echo "Help:"
+    printf '  %s\n' $(compgen -c dquest- | sed 's/^dquest-//' | sort | uniq)
+    echo "  help"
+  }
+
+  if [ $# -eq 0 ] || [ "$1" = "help" ]; then
+    print_usage
+    # return 0
+  fi
+
+  command dquest-"$@"
