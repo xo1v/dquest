@@ -1,0 +1,7 @@
+if [ $(id -u) = 0 ]; then
+echo "This script may not be run as root."
+fi
+
+chmod +x ~/dquest/bin/*
+echo >> ~/.zshrc
+echo "PATH=/Users/$(id -un)/dquest/bin:$PATH" >> ~/.zshrc
